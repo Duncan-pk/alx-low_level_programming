@@ -3,9 +3,10 @@
 /**
  * main -Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always
  */
 int main(void)
 {
+	puts("hello world");
 	return (0);
 }
