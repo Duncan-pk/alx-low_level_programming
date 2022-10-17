@@ -3,11 +3,9 @@
 #include <time.h>
 
 /* more headers goes there */
-
-
-
 /* betty style doc for function main goes there */
-
+/*Return: Always 0 (Success) */
+/*function main */
 int main(void)
 
 {
@@ -32,7 +30,7 @@ int main(void)
 		else
 		{
 		printf("%d", n);
-		puts("is negative");
+		puts(" is negative");
 		}
 		return (0);
 
