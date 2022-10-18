@@ -3,37 +3,19 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
+ * _isalpha - Entry point
+ * Description:'int c'
  * Return: always return 0 (Success)
  */
-int main(void)
-{
-	int r;
-
-	r = _isalpha('H');
-	r = _isalpha('o');
-	r = _isalpha(108);
-	r = _isalpha(';');
-	r = _isalpha('\n');
-	return (0);
-}
-
-int _putchar(char c)
-{
-
-		return (write(1, &c, 1));
-}
-
 int _isalpha(int c)
 {
 	if (isalpha(c) > 0)
 	{
-	_putchar(1 + '0');
+	return (1);
 	}
 	else
 	{
-	_putchar(0 + '0');
+	return (0);
 	}
 
 }
