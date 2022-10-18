@@ -13,11 +13,6 @@ int main(void)
 {
 	char C;
 
-
-	srand(time(0));
-
-	n = rand() - RAND_MAX / 2;
-
 	/* your code goes there */
 	for (C = 'a'; C <= 'z'; ++C)
 	{
