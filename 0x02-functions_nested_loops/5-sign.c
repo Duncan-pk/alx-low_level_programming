@@ -11,9 +11,17 @@ int main(void)
 int r;
 
 r = print_sign(98);
+_putchar(r + '0');
+_putchar('\n');
 r = print_sign(0);
+_putchar(r + '0');
+_putchar('\n');
 r = print_sign(0xff);
+_putchar(r + '0');
+_putchar('\n');
 r = print_sign(-1);
+_putchar(r + '0');
+_putchar('\n');
 
 }
 
@@ -30,21 +38,21 @@ int print_sign(int n)
 	_putchar('+');
 	_putchar(',');
 	_putchar(' ');
-	_putchar(1 + '0');
+	return (1);
 	}
 	else if (n == 0)
 	{
 	_putchar(0 + '0');
 	_putchar(';');
 	_putchar(' ');
-	_putchar(0 + '0');
+	return (0);
 	}
 	else
 	{
 	_putchar('-');
 	_putchar(',');
 	_putchar(' ');
-	_putchar('/');
+	return (-1);
 	}
 	_putchar('\n');
 
