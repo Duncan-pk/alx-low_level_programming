@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 /**
  * main - Entry point
@@ -7,16 +7,29 @@
  */
 int main(void)
 {
-	int i;
+	print_alphabet_x10();
+	return (0);
+}
+
+int _putchar(char c)
+{
+
+	return (write(1, &c, 1));
+}
+
+
+void print_alphabet_x10(void)
+{
 	char c;
+	int i;
 
 	for (i = 0 ; i <= 10 ; i++)
 	{
-		for (c = 'a' ; c <= 'z' ; c++)
-		{
-		putchar(c);
-		}
-		putchar('\n');
+	for (c = 'a' ; c <= 'z' ; c++)
+	{
+	_putchar(c);
 	}
-	return (0);
+	_putchar('\n');
+	}
 }
+
