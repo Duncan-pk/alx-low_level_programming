@@ -23,24 +23,20 @@ int main(void)
 		m = n % 10;
 
 		/*display output */
-		puts("Last digit of ");
-		printf("%d", n);
-		puts(" is ");
-		printf("%d", m);
 
 		if (m > 5)
 		{
-		puts(" and is greater than 5");
+		printf("Last digit of %d is %d and is greater than 5", n, m);
 		}
 		else if (m == 0)
 		{
-		puts(" and is 0");
+		printf("Last digit of %d is %d and is 0", n, m);
 		}
 		else
 		{
-		puts(" and is less than 6 and not 0");
+		printf("Last digit of %d is %d and is less than 6 and not 0", n, m);
 		}
-
+		putchar('\n');
 		return (0);
 
 }
