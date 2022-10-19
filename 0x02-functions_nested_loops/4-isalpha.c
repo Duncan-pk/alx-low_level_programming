@@ -4,7 +4,7 @@
 
 /**
  * _isalpha - Entry point
- * Description:'int c'
+ * @c: char to be checked
  * Return: always return 0 (Success)
  */
 int _isalpha(int c)

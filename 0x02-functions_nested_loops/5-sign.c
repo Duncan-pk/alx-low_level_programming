@@ -2,59 +2,21 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * main - Entry point
- *
+ * print_sign - Entry point
+ *@n: char to be checked
  * Return: always return 0 (Success)
  */
-int main(void)
-{
-int r;
-
-r = print_sign(98);
-_putchar(r + '0');
-_putchar('\n');
-r = print_sign(0);
-_putchar(r + '0');
-_putchar('\n');
-r = print_sign(0xff);
-_putchar(r + '0');
-_putchar('\n');
-r = print_sign(-1);
-_putchar(r + '0');
-_putchar('\n');
-
-return (0);
-}
-
-int _putchar(char c)
-{
-
-	return (write(1, &c, 1));
-}
-
 int print_sign(int n)
 {
-	if (n > 0)
-	{
-	_putchar('+');
-	_putchar(',');
-	_putchar(' ');
+if (n > 0)
+{
 	return (1);
-	}
-	else if (n == 0)
-	{
-	_putchar(0 + '0');
-	_putchar(';');
-	_putchar(' ');
+}
+else if (n == 0)
+{
 	return (0);
-	}
-	else
-	{
-	_putchar('-');
-	_putchar(',');
-	_putchar(' ');
+}
+else
 	return (-1);
-	}
-	_putchar('\n');
 
 }
