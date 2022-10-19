@@ -13,7 +13,7 @@ for (m = 0 ; m < 10 ; m++)
 	for (x = 0 ; x < 10 ; x++)
 	{
 	z = x * m;
-	_putchar(z + '0');
+	_putchar(z);
 	_putchar(',');
 	_putchar(' ');
 	}
