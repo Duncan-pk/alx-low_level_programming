@@ -7,5 +7,8 @@
  */
 int _abs(int a)
 {
-	return (abs(a));
+	int r;
+
+	r = abs(a);
+	return (r);
 }
