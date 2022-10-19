@@ -5,7 +5,7 @@
  * @a: char to be checked
  * Return: always return 0 (Success)
  */
-int _abs(int a);
+int _abs(int a)
 {
 	return (abs(a));
 }
