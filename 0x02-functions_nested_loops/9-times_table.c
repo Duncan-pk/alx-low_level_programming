@@ -7,14 +7,14 @@
 void times_table(void)
 {
 int m, x, z;
-char display[];
 
 for (m = 0 ; m < 10 ; m++)
 {
 	for (x = 0 ; x < 10 ; x++)
 	{
 	z = x * m;
-	display[x] = 'z';
+	char display[] = 'z';
+
 	for (int a = 0 ; a <= 1 ; a++)
 	{
 	_putchar(display[a]);
