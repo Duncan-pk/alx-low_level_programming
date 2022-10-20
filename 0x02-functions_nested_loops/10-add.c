@@ -2,7 +2,8 @@
 /**
  * add - entry point
  *
- *@int: user input
+ *@a: user input
+ *@b: user input
  * Return: always return 0
  */
 int add(int a, int b)
