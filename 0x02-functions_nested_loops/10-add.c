@@ -5,10 +5,8 @@
  *@int: user input
  * Return: always return 0
  */
-int add(int, int)
+int add(int a, int b)
 {
-int a;
-int b;
 int z;
 
 z = a + b;
