@@ -3,13 +3,18 @@
  * print_most_number - Entry point
  * Return: always return 0 (Success)
  */
-void print_most_number(void)
+void print_most_numbers(void)
 {
-	for (int x = 0 ; x < 10 ; x++)
+	int x;
+	for (x = 0 ; x < 10; x++)
 	{
-		if (x == 2 || x == 4)
+		if (x == 2 )
 		{
-		x++;
+		
+		}
+		else if (x == 4)
+		{
+		
 		}
 		else
 		{

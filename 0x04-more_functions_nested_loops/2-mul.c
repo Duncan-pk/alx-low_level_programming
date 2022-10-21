@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctype>
+
 /**
  * mul - Entry point
  * @a: user input

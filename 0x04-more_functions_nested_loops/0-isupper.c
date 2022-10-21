@@ -1,6 +1,4 @@
 #include "main.h"
-#include <ctype>
-#include <unistd.h>
 /**
  * _isupper - Entry point
  * @c: user input
@@ -8,7 +6,7 @@
  */
 int _isupper(int c)
 {
-	if (isupper(c) > 0)
+	if (c >= 'A' && c <= 'Z')
 	{
 	return (1);
 	}

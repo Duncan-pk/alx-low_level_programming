@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype>
 /**
  * _isdigit -Entry point
  * @c: user input
@@ -7,7 +6,7 @@
  */
 int _isdigit(int c)
 {
-	if (isdigit(c) > 0)
+	if (c >= '0' && c <= '9')
 	{
 
 	return (1);
