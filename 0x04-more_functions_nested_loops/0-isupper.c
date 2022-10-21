@@ -1,5 +1,6 @@
 #include "main.h"
 #include <ctype>
+#include <unistd.h>
 /**
  * _isupper - Entry point
  * @c: user input
