@@ -7,6 +7,7 @@
 void print_line(int n)
 {
 	int x;
+
 	if (n < 1)
 	{
 	_putchar('\n');
