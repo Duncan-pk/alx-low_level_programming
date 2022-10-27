@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - function 
+ *_strncat - function
  * @dest: pointer
  * @src: second pointer
  * @n: loop controller
@@ -18,10 +18,10 @@ char *_strncat(char *dest, char *src, int n)
 	}
 
 	j = 0;
-	
+
 	while (j < n)
 	{
-		if(src[j] == '\0')
+		if (src[j] == '\0')
 		break;
 		else
 		{
