@@ -4,6 +4,7 @@
  * @dest: pointer
  * @src: second pointer
  * @n: loop controller
+ * Return: char
  */
 char *_strncat(char *dest, char *src, int n)
 {

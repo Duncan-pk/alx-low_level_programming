@@ -3,6 +3,7 @@
  * *_strcat - Entry point
  * @dest: string
  * @src: secong string
+ * Return: char pionter
  */
 char *_strcat(char *dest, char *src)
 {
