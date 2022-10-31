@@ -11,6 +11,7 @@ char *_memset(char *s, char b, unsigned int n)
 	int i;
 	int x;
 	x = (int)n;
+
 	/*loop set for only n characters*/
 
 	for (i = 0; i < x; i++)
