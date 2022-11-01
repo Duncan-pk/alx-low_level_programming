@@ -2,7 +2,6 @@
 /**
  * print_chessboard - function
  * @a: size
- * @8:columns
  */
 void print_chessboard(char (*a)[8])
 {
