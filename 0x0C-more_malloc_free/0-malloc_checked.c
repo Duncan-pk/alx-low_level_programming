@@ -8,8 +8,8 @@
 
 void *malloc_checked(unsigned int b)
 {
-char* ptr;
-char* saved;
+char *ptr;
+char *saved;
 
 ptr = malloc(b);
 saved = ptr;
